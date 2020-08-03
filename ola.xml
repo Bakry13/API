@@ -1,0 +1,9 @@
+<suite name="API">
+
+    <test name="Consumption">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="ProductInventory.MI_Test" /> 
+		</classes>
+	</test> 
+</suite>

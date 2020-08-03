@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="14" passed="0" failed="0" skipped="14">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-03T21:13:09Z" name="API" finished-at="2020-08-03T21:13:11Z" duration-ms="2898">
+    <groups>
+    </groups>
+    <test started-at="2020-08-03T21:13:09Z" name="MI" finished-at="2020-08-03T21:13:11Z" duration-ms="2898">
+      <class name="ProductInventory.MI_Test_AR">
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:09Z" name="StartTestCase" finished-at="2020-08-03T23:13:09Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[groovy/lang/GroovyObject]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: groovy/lang/GroovyObject
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1009)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:347)
+	at Utilities.Auth.authRequest(Auth.java:17)
+	at Utilities.Auth.getToken(Auth.java:35)
+	at ProductInventory.ProductEndPoints.MIArabicRequest(ProductEndPoints.java:96)
+	at ProductInventory.MI_Test_AR.StartTestCase(MI_Test_AR.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.GroovyObject
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="ExtremeProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="ExtremeProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="6" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtremeProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="ContentProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="ContentProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="Stop_internetProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="Stop_internetProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stop_internetProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="AddonProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="AddonProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddonProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="UnsubscribedProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="UnsubscribedProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="20" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsubscribedProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="Supper_passProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="Supper_passProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="6" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supper_passProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="NoProduct()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="NoProduct" finished-at="2020-08-03T23:13:10Z" duration-ms="5" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test_AR@3c947bc5]" started-at="2020-08-03T23:13:10Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+      </class> <!-- ProductInventory.MI_Test_AR -->
+      <class name="ProductInventory.MI_Test">
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:10Z" name="StartTestCase" finished-at="2020-08-03T23:13:10Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class io.restassured.RestAssured]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at Utilities.Auth.authRequest(Auth.java:17)
+	at Utilities.Auth.getToken(Auth.java:35)
+	at ProductInventory.ProductEndPoints.MIRequest(ProductEndPoints.java:70)
+	at ProductInventory.MI_Test.StartTestCase(MI_Test.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="ExtremeProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="ExtremeProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtremeProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="StartTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="ContentProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="ContentProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="StartTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="Stop_internetProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="Stop_internetProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stop_internetProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="StartTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="AddonProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="AddonProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="25" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddonProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="StartTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="UnsubscribedProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="UnsubscribedProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsubscribedProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="StartTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="Supper_passProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="Supper_passProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supper_passProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+        <test-method is-config="true" signature="StartTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="StartTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTestCase -->
+        <test-method signature="NoProduct()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="NoProduct" finished-at="2020-08-03T23:13:11Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoProduct -->
+        <test-method is-config="true" signature="EndReportTestCase()[pri:0, instance:ProductInventory.MI_Test@5ab9e72c]" started-at="2020-08-03T23:13:11Z" name="EndReportTestCase" finished-at="2020-08-03T23:13:11Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReportTestCase -->
+      </class> <!-- ProductInventory.MI_Test -->
+      <class name="Utilities.ExtentReport">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Utilities.ExtentReport@609db43b]" started-at="2020-08-03T23:13:09Z" name="StartReport" finished-at="2020-08-03T23:13:09Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:Utilities.ExtentReport@609db43b]" started-at="2020-08-03T23:13:11Z" name="EndReport" finished-at="2020-08-03T23:13:11Z" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- Utilities.ExtentReport -->
+    </test> <!-- MI -->
+  </suite> <!-- API -->
+</testng-results>

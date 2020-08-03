@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API">
+
+<!-- 	<test name="FlexCoins">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="FlexCoins.FlexLoyaltyTest" />
+		</classes>
+	</test>>
+	 -->
+	<test name="USB">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="USBUsageConsumption.USBConsumptionTest" />
+		</classes>
+	</test>>
+		
+</suite>

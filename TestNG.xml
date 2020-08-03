@@ -1,0 +1,63 @@
+<suite name="API">
+	<test name="Loyalty">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="Loyalty.LoyaltyTest" />
+	    	<class name="Loyalty.LoyaltyErrorTest" />
+			<Methodes>
+			</Methodes>
+		</classes>
+	</test>
+	<test name="Consumption">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="Consumption.ConsumptionErrorTest" /> 
+         	<class name="Consumption.ConsumptionGeneralProductsTest" />  
+	    	<class name="Consumption.ConsumptionFlexTest" />
+	    	<class name="Consumption.ConsumptionRedTest" />
+	    	<class name="Consumption.ConsumptionMassTest" />
+		</classes>
+	</test>   
+	  <test name="Management">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="Management.ManagementErrorTest" />
+	    	<class name="Management.ManagementTest" />
+	    	<class name="Management.ManagementNoDataTest" />
+		</classes>
+	</test>
+	<test name="FlexCoins">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="FlexCoins.FlexLoyaltyTest" />
+		</classes>
+	</test>
+	<test name="AlertingServices">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="ProductInventory.AlertingErrorTest" />
+			<class name="ProductInventory.AlertingTest_AR" />
+			<class name="ProductInventory.AlertingTest" />
+		</classes>
+	</test>
+ 	<test name="MI">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="ProductInventory.MI_Test_AR" />
+			<class name="ProductInventory.MI_Test" />
+		</classes>
+	</test>
+	<test name="Configuration">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="Configuration.ConfigurationErrorTest" />
+			<class name="Configuration.ConfigurationTest" />
+		</classes>
+	</test>
+	<test name="USB">
+		<classes>
+			<class name="Utilities.ExtentReport" />
+			<class name="USBUsageConsumption.USBConsumptionTest" />
+		</classes>
+	</test>>
+</suite>

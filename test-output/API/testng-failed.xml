@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API]">
+  <test name="MI(failed)">
+    <classes>
+      <class name="ProductInventory.MI_Test">
+        <methods>
+          <include name="UnsubscribedProduct"/>
+          <include name="StartTestCase"/>
+          <include name="Stop_internetProduct"/>
+          <include name="ContentProduct"/>
+          <include name="NoProduct"/>
+          <include name="AddonProduct"/>
+          <include name="ExtremeProduct"/>
+          <include name="Supper_passProduct"/>
+        </methods>
+      </class> <!-- ProductInventory.MI_Test -->
+      <class name="ProductInventory.MI_Test_AR">
+        <methods>
+          <include name="Stop_internetProduct"/>
+          <include name="ContentProduct"/>
+          <include name="UnsubscribedProduct"/>
+          <include name="StartTestCase"/>
+          <include name="ExtremeProduct"/>
+          <include name="Supper_passProduct"/>
+          <include name="NoProduct"/>
+          <include name="AddonProduct"/>
+        </methods>
+      </class> <!-- ProductInventory.MI_Test_AR -->
+      <class name="Utilities.ExtentReport">
+        <methods>
+          <include name="EndReport"/>
+          <include name="StartReport"/>
+        </methods>
+      </class> <!-- Utilities.ExtentReport -->
+    </classes>
+  </test> <!-- MI(failed) -->
+</suite> <!-- Failed suite [API] -->

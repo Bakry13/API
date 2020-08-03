@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="ProductInventory.MI_Test">
+=======
+      <class name="USBUsageConsumption.USBConsumptionTest">
+>>>>>>> branch 'Hala_API' of https://git.vf-eg.internal.vodafone.com/DigitalEngineeringTribe/API.git
+        <methods>
+          <include name="FlexUSBUsage"/>
+          <include name="REDUSBUsage"/>
+          <include name="StartTestCase"/>
+<<<<<<< HEAD
+          <include name="ExtremeProduct"/>
+=======
+>>>>>>> branch 'Hala_API' of https://git.vf-eg.internal.vodafone.com/DigitalEngineeringTribe/API.git
+        </methods>
+<<<<<<< HEAD
+      </class> <!-- ProductInventory.MI_Test -->
+=======
+      </class> <!-- USBUsageConsumption.USBConsumptionTest -->
+>>>>>>> branch 'Hala_API' of https://git.vf-eg.internal.vodafone.com/DigitalEngineeringTribe/API.git
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
